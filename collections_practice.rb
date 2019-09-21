@@ -42,7 +42,10 @@ new_array.inject(:+)
 end
 
 def add_s(array)
-  
+  array.each_with_index.collect do |i, index|
+    i.concat("s") if index != 1 
+  end
+end
 
 
 
