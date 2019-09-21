@@ -38,7 +38,7 @@ def sum_array(array)
       next
     end
   end
-new_array.inject(:+)
+#new_array.inject(:+)
   end
 end
 
