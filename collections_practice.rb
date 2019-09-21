@@ -32,7 +32,7 @@ end
 def sum_array(array)
   new_array = []
   array.each do |i|
-    if i.is_an_int
+     if i.is_an_int
       new_array << i
     else
       next
@@ -40,6 +40,7 @@ def sum_array(array)
   end
 new_array.inject(:+)
 end
+
 
 
 
